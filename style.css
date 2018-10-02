@@ -7,10 +7,13 @@
     background-position: center;
     background-size: cover;
     box-sizing: border-box;
+    font-family: 'Open Sans', sans-serif;
 }
+
 .card, .buy {
     display: inline-block;
 }
+
 button.lilu {
     width: 280px;
     height: 55px;
