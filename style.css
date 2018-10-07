@@ -27,19 +27,6 @@
     cursor: pointer;
 }
 
-button.lilu {
-    height: 31px;
-    border: none;
-    color: white;
-    padding: 10px 13px;
-    text-align: center;
-    text-decoration: none;
-    display: inline-block;
-    background-color: rgb(236, 0, 143);
-    cursor: pointer;
-    border-radius: 8px;
-}
-
 button.blue {
     height: 31px;
     border: none;
@@ -53,7 +40,46 @@ button.blue {
     border-radius: 8px;
 }
 
-.lilu, .blue {
+button.lilu {
+    height: 31px;
+    border: none;
+    color: white;
+    padding: 10px 13px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    background-color: rgb(236, 0, 143);
+    cursor: pointer;
+    border-radius: 8px;
+}
+
+button.sea {
+    height: 31px;
+    border: none;
+    color: white;
+    padding: 10px 13px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    background-color: rgb(0, 110, 86);
+    cursor: pointer;
+    border-radius: 8px;
+}
+
+button.light {
+    height: 31px;
+    border: none;
+    color: white;
+    padding: 10px 13px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    background-color: rgb(255, 210, 152);
+    cursor: pointer;
+    border-radius: 8px;
+}
+
+.lilu, .blue, .sea, .light {
     font-size: 18px;
     text-transform: uppercase;
     font-weight: 600;
@@ -104,7 +130,7 @@ button.blue {
     color: #fff;
 }
 
-.price {
+#blue-price, #lilu-price {
     background-color: rgb(239, 171, 0);
     width: 70px;
     border-radius: 4px;
@@ -133,4 +159,20 @@ button.blue {
 
 .left-col, .right-col {
     display: inline-block;
+}
+
+.row-bottom {
+    display: flex;
+    width: 636px;
+    height: 255px;
+}
+
+#sea-price, #light-price {
+    background-color: rgb(239, 171, 0);
+    width: 70px;
+    border-radius: 4px;
+    font-weight: 700;
+    height: 25px;
+    margin-top: 25px;
+    margin-left: 60px;
 }
