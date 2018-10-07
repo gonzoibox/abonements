@@ -7,9 +7,25 @@
     flex-wrap: wrap;
 }
 
+.blue-row {
+    background-color:rgb(31, 117, 145);
+}
+
+.lilu-row {
+    background-color: rgb(129, 8, 125);
+}
+
+.sea-row {
+background-color: rgb(0, 68, 61);
+}
+
+.light-row {
+background-color: rgb(228, 192, 143);
+color: rgb(95, 85, 68);
+}
+
 .wrapper {
     margin: 0 auto;
-    /* background-image: url("background-img.jpg"); */
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
@@ -130,6 +146,18 @@ button.light {
     color: #fff;
 }
 
+.light-row .sport {
+    color: rgb(95, 85, 68);
+}
+
+.row-bottom .sport-description {
+    margin-top: 10px;
+}
+
+.light-row .sport-description{
+    color: rgb(95, 85, 68);
+}
+
 #blue-price, #lilu-price {
     background-color: rgb(239, 171, 0);
     width: 70px;
@@ -143,18 +171,16 @@ button.light {
 .row {
     display: flex;
     width: 636px;
-    height: 514px;
+    height: 386px;
 }
 
 .left-col {
     width: 70%;
     padding-left: 67px;
-    background-color: #aaa;
 }
 
 .right-col {
     width: 30%;
-    background-color: #333;
 }
 
 .left-col, .right-col {
@@ -164,7 +190,7 @@ button.light {
 .row-bottom {
     display: flex;
     width: 636px;
-    height: 255px;
+    height: 280px;
 }
 
 #sea-price, #light-price {
@@ -173,6 +199,6 @@ button.light {
     border-radius: 4px;
     font-weight: 700;
     height: 25px;
-    margin-top: 25px;
+    margin-top: 150px;
     margin-left: 60px;
 }
