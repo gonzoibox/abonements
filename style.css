@@ -13,17 +13,12 @@
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
-    box-sizing: border-box;
     font-family: 'Open Sans', sans-serif;
     z-index: -2;
 }
 
-.card, .buy {
-    display: inline-block;
-}
-
 .card {
-    margin-left: 33px;
+    /* margin-left: 33px; */
     margin-top: 35px;
 }
 
@@ -98,14 +93,12 @@ button.blue {
 }
 
 .sport span {
-    margin-left: 33px;
     margin-top: 40px;
     font-weight: 800;
 }
 
 .sport-description {
     width: 240px;
-    margin-left: 33px;
     margin-top: 30px;
     color: #fff;
 }
@@ -119,6 +112,7 @@ button.blue {
     margin-top: 250px;
     margin-left: 60px;
 }
+
 .row {
     display: flex;
     width: 636px;
@@ -127,12 +121,15 @@ button.blue {
 
 .left-col {
     width: 70%;
+    padding-left: 67px;
     background-color: #aaa;
 }
+
 .right-col {
     width: 30%;
     background-color: #333;
 }
+
 .left-col, .right-col {
     display: inline-block;
 }
