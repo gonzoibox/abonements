@@ -5,23 +5,17 @@
 .flex {
     display: flex;
     flex-wrap: wrap;
-   width: 100%;
 }
 
 .wrapper {
     margin: 0 auto;
-    background-image: url("background-img.jpg");
+    /* background-image: url("background-img.jpg"); */
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
     box-sizing: border-box;
     font-family: 'Open Sans', sans-serif;
     z-index: -2;
-}
-
-.row {
-    width: 636px;
-    height: 514px;
 }
 
 .card, .buy {
@@ -34,7 +28,7 @@
 }
 
 .buy {
-    margin-left: 190px;
+    margin-top: 35px;
     cursor: pointer;
 }
 
@@ -51,7 +45,20 @@ button.lilu {
     border-radius: 8px;
 }
 
-.lilu {
+button.blue {
+    height: 31px;
+    border: none;
+    color: white;
+    padding: 10px 13px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    background-color: rgb(60, 86, 147);
+    cursor: pointer;
+    border-radius: 8px;
+}
+
+.lilu, .blue {
     font-size: 18px;
     text-transform: uppercase;
     font-weight: 600;
@@ -94,7 +101,6 @@ button.lilu {
     margin-left: 33px;
     margin-top: 40px;
     font-weight: 800;
-
 }
 
 .sport-description {
@@ -108,8 +114,25 @@ button.lilu {
     background-color: rgb(239, 171, 0);
     width: 70px;
     border-radius: 4px;
-    margin-left: 467px;
     font-weight: 700;
     height: 25px;
+    margin-top: 250px;
+    margin-left: 60px;
+}
+.row {
+    display: flex;
+    width: 636px;
+    height: 514px;
+}
 
+.left-col {
+    width: 70%;
+    background-color: #aaa;
+}
+.right-col {
+    width: 30%;
+    background-color: #333;
+}
+.left-col, .right-col {
+    display: inline-block;
 }
