@@ -188,7 +188,7 @@ button.light {
 .row-bottom {
     display: flex;
     width: 636px;
-    height: 280px;
+    height: 300px;
 }
 
 #sea-price, #light-price {
@@ -201,11 +201,30 @@ button.light {
     margin-left: 60px;
 }
 
-@media only screen and (max-width: 1000px) {
-    .flex {
-        flex-direction: column;
-      }
-     .wrapper {
-        width: 500px;
+@media only screen and (max-width: 1272px) {
+     .flex {
+         flex-direction: column;
+         flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+     }
+     .row {
+        width: 100%;
+        margin: 0 auto;
       }
     }
+
+    @media only screen and (max-width: 590px) {
+       
+        .wrapper {
+           margin: 0 auto;
+           min-width: 450px;
+         } 
+         .row {
+             width: 100%;
+             margin: 0 auto;
+         } 
+         .left-col {
+             width: 60%;
+         }
+        }
