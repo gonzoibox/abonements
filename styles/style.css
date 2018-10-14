@@ -51,6 +51,9 @@ main {
     font-family: 'Open Sans', sans-serif;
 }
 
+.height {
+    height: 100px;
+}
 #flexible-cards {
     display: flex;
     flex-wrap: wrap;
@@ -61,8 +64,8 @@ main {
 
 .row {
     display: flex;
-    width: 636px;
-    height: 386px;
+    width: 640px;
+    height: 515px;
 }
 
 .left-col {
@@ -80,7 +83,7 @@ main {
 
 .row-bottom {
     display: flex;
-    width: 636px;
+    width: 640px;
     height: 290px;
 }
 
