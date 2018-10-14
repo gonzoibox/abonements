@@ -49,6 +49,7 @@
 /*END HEADER*/
 main {
     font-family: 'Open Sans', sans-serif;
+    font-weight: 800;
 }
 
 .height {
@@ -69,8 +70,8 @@ main {
 }
 
 .left-col {
-    width: 70%;
-    padding-left: 67px;
+    width: 69%;
+    padding-left: 94px;
 }
 
 .right-col {
@@ -84,24 +85,28 @@ main {
 .row-bottom {
     display: flex;
     width: 640px;
-    height: 290px;
+    height: 257px;
 }
 
 .blue-card {
     background-color:rgb(31, 117, 145);
 }
 
+.blue-card .card {
+    margin-left: -12px;
+}
+
 .blue-item {
-    height: 31px;
+    height: 30px;
     border: none;
     color: white;
-    padding: 10px 13px;
+    padding: 7px 12px;
     text-align: center;
     text-decoration: none;
     display: inline-block;
     background-color: rgb(60, 86, 147);
     cursor: pointer;
-    border-radius: 8px;
+    border-radius: 7px;
 }
 
 .lilu-card {
@@ -159,15 +164,14 @@ color: rgb(95, 85, 68);
 .lilu-item, .blue-item, .sea-item, .light-item {
     font-size: 18px;
     text-transform: uppercase;
-    font-weight: 600;
 }
 
 .card {
-    margin-top: 35px;
+    margin-top: 59px;
 }
 
 .buy {
-    margin-top: 35px;
+    margin-top: 60px;
     cursor: pointer;
 }
 
@@ -200,20 +204,24 @@ color: rgb(95, 85, 68);
 }
 
 .sport {
-    margin-top: 20px;
+    margin-left: -44px;
+    margin-top: 23px;
     color: #fff;
-    font-size: 40px;
+    font-size: 53px;
+    transform: scaleX(.79);
 }
 
 .sport span {
     margin-top: 40px;
-    font-weight: 800;
 }
 
 .sport-description {
-    width: 240px;
+    font-size: 18px;
+    width: 260px;
     margin-top: 30px;
     color: #fff;
+    font-weight: 300;
+    line-height: 23px;
 }
 
 .light-row .sport {
@@ -230,12 +238,13 @@ color: rgb(95, 85, 68);
 
 #blue-price, #lilu-price {
     background-color: rgb(239, 171, 0);
-    width: 70px;
-    border-radius: 4px;
-    font-weight: 700;
-    height: 25px;
-    margin-top: 250px;
-    margin-left: 60px;
+    width: 108px;
+    height: 33px;
+    border-radius: 6px;
+    margin-top: 335px;
+    margin-left: 31px;
+    padding-left: 7px;
+    font-size: 27px;
 }
 
 #sea-price, #light-price {
