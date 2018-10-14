@@ -266,13 +266,15 @@ main {
 }
 
 .sea-card .sport-description {
-    font-size: 18px;
+    font-size: 17px;
     color: #fff;
-    font-weight: 300;
-    line-height: 24px;
-    margin-left: -29px;
+    font-weight: 400;
+    line-height: 25px;
+    margin-left: -28px;
+    margin-top: 12px;
     transform: scaleX(.86);
 }
+
 .sea-card .buy {
     margin-top: 32px;
     cursor: pointer;
@@ -327,44 +329,44 @@ main {
 }
 
 .light-card {
-background-color: rgb(228, 192, 143);
+background-color: rgb(243, 215, 176);
 color: rgb(95, 85, 68);
 }
 
-.light-item {
-    height: 31px;
-    border: none;
-    color: rgb(95, 85, 68);;
-    padding: 10px 13px;
-    text-align: center;
-    text-decoration: none;
-    display: inline-block;
-    background-color: rgb(255, 210, 152);
-    cursor: pointer;
-    border-radius: 8px;
+.light-card .card {
+    margin-top: 32px;
 }
 
-.lilu-item, .blue-item, .sea-item, .light-item {
-    font-size: 18px;
-    text-transform: uppercase;
+.light-card .sport {
+    margin-left: -50px;
+    margin-top: 15px;
+    color: rgb(88, 90, 87);
+    font-size: 42px;
+    transform: scaleX(.82);
+    width: max-content;
 }
 
-.light-row .sport {
-    color: rgb(95, 85, 68);
-}
-
-.row-bottom {
-    display: flex;
-    width: 640px;
-    height: 257px;
-}
-
-.row-bottom .sport-description {
+.light-card .sport-description {
+    font-size: 17px;
+    color: rgb(88, 90, 87);
+    font-weight: 400;
+    line-height: 25px;
+    margin-left: -56px;
     margin-top: 10px;
+    transform: scaleX(.86);
+}
+.light-card .buy {
+    margin-top: 32px;
+    cursor: pointer;
 }
 
-.light-row .sport-description{
-    color: rgb(95, 85, 68);
+.light-item {
+    color: rgb(93, 86, 82);
+    padding: 5px 12px;
+    display: inline-block;
+    background-color: rgb(255, 233, 204);
+    border-radius: 6px;
+    margin-left: -35px;
 }
 
 .light-card .buy > button {
@@ -404,6 +406,26 @@ color: rgb(95, 85, 68);
     margin-top: 150px;
     margin-left: 60px;
 }
+
+.lilu-item, .blue-item, .sea-item, .light-item {
+    font-size: 18px;
+    text-transform: uppercase;
+}
+
+.light-row .sport {
+    color: rgb(95, 85, 68);
+}
+
+.row-bottom {
+    display: flex;
+    width: 640px;
+    height: 257px;
+}
+
+.light-row .sport-description{
+    color: rgb(95, 85, 68);
+}
+
 
 /* @media only screen and (max-width: 1272px) {
     .flexible-rows {
