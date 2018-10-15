@@ -44,7 +44,6 @@ li {
 }
 
 .topnav a:hover {
-    /* font-weight: 400; */
     cursor: pointer;
     border-bottom: 4px solid rgb(242, 191, 0);
 }
@@ -484,34 +483,6 @@ li {
     width: 33%;
 }
 
-/* @media only screen and (max-width: 1272px) {
-    .flexible-rows {
-        flex-direction: column;
-        flex-wrap: wrap;
-        justify-content: center;
-        align-items: center;
-    }
-    .row {
-        width: 100%;
-        margin: 0 auto;
-    }
-}
-
-@media only screen and (max-width: 590px) {
-    main {
-        margin: 0 auto;
-        min-width: 450px;
-    }
-
-    .row {
-        width: 100%;
-        margin: 0 auto;
-    }
-
-    .left-col {
-        width: 60%;
-    }
-} */
 aside {
     width: 1280px;
     height: 480px;
