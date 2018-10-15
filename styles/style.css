@@ -557,6 +557,7 @@ aside {
     font-size: 36px;
     margin-top: 0;
     font-weight: 500;
+    height: 112px;
 }
 
 .learn-more {
@@ -577,3 +578,28 @@ aside {
     box-shadow: 0 2px 10px 0 rgba(0,0,0,0.2), 0 4px 3px 0 rgba(0,0,0,0.3);
     font-weight: 800;
 }
+
+.schedule-banner, .schedule-net, .time {
+    display: inline-flex;
+}
+
+.flex-cells {
+    display: flex;
+    flex-direction: row;
+}
+
+.flex-cells > div {
+    border: 1px solid #ccc;
+    font-size: 16px;
+    font-weight: 200;
+}
+
+.flex-cells .cell div {
+    background-color: #f1f1f1;
+    width: 69px;
+    height: 61px;
+    border-bottom: 1px solid #ccc;
+    padding-top: 13px;
+    justify-content: center;
+}
+
