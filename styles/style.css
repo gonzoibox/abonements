@@ -96,7 +96,9 @@ li {
 }
 
 .blue-card {
-    background-color:rgb(31, 117, 145);
+    background-image: url('/images/underwater-child.jpg');
+    background-repeat: no-repeat;
+    background-position: center; 
 }
 
 .blue-card .card {
@@ -181,7 +183,9 @@ li {
 }
 
 .lilu-card {
-    background-color: rgb(129, 8, 125);
+    background-image: url('/images/beach-ball.jpg');
+    background-repeat: no-repeat;
+    background-position: center; 
 }
 
 .lilu-card .card {
@@ -256,7 +260,9 @@ li {
 }
 
 .sea-card {
-    background-color: rgb(0, 68, 61);
+    background-image: url('/images/swimmer-in-pool.jpg');
+    background-repeat: no-repeat;
+    background-position: center; 
 }
 
 .sea-card .card {
@@ -336,7 +342,9 @@ li {
 }
 
 .light-card {
-    background-color: rgb(243, 215, 176);
+    background-image: url('/images/aqua-joga.jpg');
+    background-repeat: no-repeat;
+    background-position: center; 
     color: rgb(95, 85, 68);
 }
 
