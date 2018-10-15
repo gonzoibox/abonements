@@ -501,3 +501,18 @@ aside {
     font-size: 16px;
     margin-top: 33px;
 }
+
+#schedule {
+    width: 1280px;
+    height: 924px;
+    background-color: rgb(255, 233, 204);
+    margin: 0 auto;
+}
+
+#schedule .title {
+    text-align: center;
+    padding-top: 55px;
+    font-size: 36px;
+    margin-top: 0;
+    font-weight: 500;
+}
