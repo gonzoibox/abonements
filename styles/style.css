@@ -369,6 +369,7 @@ li {
 .light-card {
     background-repeat: no-repeat;
     background-position: center;
+    background-size: cover;
     background-image: linear-gradient( rgb(238, 215, 194, 0.8), rgba(0, 0, 0, 0.5) ), url('/images/aqua-joga.jpg');
     color: rgb(95, 85, 68);
 }
@@ -538,8 +539,8 @@ aside {
     transform: scaleX(.88);
 }
 
-.additional-info p:last-child {
-    font-size: 16px;
+.additional-info .additional-description {
+    font-size: 21px;
     margin-top: 33px;
 }
 
@@ -556,4 +557,23 @@ aside {
     font-size: 36px;
     margin-top: 0;
     font-weight: 500;
+}
+
+.learn-more {
+    text-align: center;
+    margin-top: 33px;
+}
+
+.learn-more > button {
+    background: linear-gradient(rgb(0, 175, 184), rgb(23, 117, 155));
+    border-radius: 8px;
+    border: none;
+    color: white;
+    padding: 14px 16px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 18px;
+    box-shadow: 0 2px 10px 0 rgba(0,0,0,0.2), 0 4px 3px 0 rgba(0,0,0,0.3);
+    font-weight: 800;
 }
