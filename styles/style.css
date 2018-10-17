@@ -95,7 +95,7 @@ li {
 }
 
 .blue-card {
-    background-image: linear-gradient( rgb(42, 101, 158, 0.8), rgba(0, 0, 0, 0.5) ), url('/images/child-in-pool-1.jpg');
+    background-image: linear-gradient( rgb(42, 101, 158, 0.8), rgba(0, 0, 0, 0.5) ), url('./images/child-in-pool-1.jpg');
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
@@ -193,7 +193,7 @@ li {
 .lilu-card {
     background-repeat: no-repeat;
     background-position: center;
-    background-image: linear-gradient( rgb(253, 0, 114, 0.8), rgba(0, 0, 0, 0.5) ), url('/images/beach-ball.jpg');
+    background-image: linear-gradient( rgb(253, 0, 114, 0.8), rgba(0, 0, 0, 0.5) ), url('./images/beach-ball.jpg');
 }
 
 .lilu-card:hover {
@@ -278,7 +278,7 @@ li {
 .sea-card {
     background-repeat: no-repeat;
     background-position: center;
-    background-image: linear-gradient( rgb(0, 75, 83, 0.8), rgba(0, 0, 0, 0.5) ), url('/images/swimmer-in-pool.jpg');
+    background-image: linear-gradient( rgb(0, 75, 83, 0.8), rgba(0, 0, 0, 0.5) ), url('./images/swimmer-in-pool.jpg');
 }
 
 .sea-card:hover {
@@ -369,7 +369,7 @@ li {
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
-    background-image: linear-gradient( rgb(238, 215, 194, 0.8), rgba(0, 0, 0, 0.5) ), url('/images/aqua-joga.jpg');
+    background-image: linear-gradient( rgb(238, 215, 194, 0.8), rgba(0, 0, 0, 0.5) ), url('./images/aqua-joga.jpg');
     color: rgb(95, 85, 68);
 }
 
