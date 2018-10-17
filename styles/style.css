@@ -483,6 +483,12 @@ li {
     width: 33%;
 }
 
+.buy img {
+    width:20%;
+    float: left;
+    margin-right: 10px;
+}
+
 aside {
     width: 1280px;
     height: 480px;
@@ -550,6 +556,12 @@ aside {
     font-weight: 800;
 }
 
+.learn-more img {
+    width: 15%;
+    vertical-align: middle;
+    margin-right: 20px;
+    border-radius: 6px;
+}
 .schedule-banner, .schedule-net, .time {
     display: inline-flex;
 }
